@@ -19,3 +19,18 @@ The approach to achieving our goal will be to first exraplote all the data neces
 
 For our purpose we will be using the Decision Matrix algorithm which will be discussed in depth. Once a specific algorithm is chosen the “cleaned” data is fed to the algorithm with a specific target value in mind. This process is known as training a classifier. Once the classifier is trained and ready for use the final step commences. “Scoring” your algorithm entails taking sample data from your set and running it through your classifier. Since the target value of your data is known a test for accuracy may take place. A percentage of the data set is run through the classifier to test it’s prediction accuracy. Each algorithm has specific methods of boosting the accuracy of it’s predictions. This by far is arguably the most important step as it is the actual evaluation of your classifier. Machine Learning is being used in a variety of applications such as medical, robotics, self-driving vehicles and many more. Giving machines the ability to learn the same way humans do with exponentially greater computational speeds the opportunities are unimaginable. 
 
+
+## Extracting The Data
+
+## Cleaning Our Data
+
+## Establishing An Algorithm
+
+## Setting Algorithm Paramaters
+
+## Running Tests
+
+## Algortihm Descision Tree
+
+## Mobile Application Deployment
+
