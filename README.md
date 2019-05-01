@@ -59,7 +59,10 @@ Based on the Sptoifiy API documentation, we will choose to extract the following
 4. Instrumentalness  9. Valence
 5. Livemess          10. Target
 
-Features 1-9 are those found in the Spotify Python documentation, but 'Trarget' is a dynamic feature added a user continues to use Unify and will be discusssed in detail later on. 
+Features 1-9 are those found in the Spotify Python documentation, but 'Target' is a dynamic feature added a user continues to use Unify and will be discusssed in detail later on. 
+
+Using the GET function below we can extract these specific features and pool them into a CSV file which we can clean.
+
 
 
 
