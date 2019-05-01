@@ -23,7 +23,7 @@ For our purpose we will be using the Decision Matrix algorithm which will be dis
 
 Shown below is a simplified representation of Unify's workflow.
 
-![ECE 4416 Capsone Oral Presentation - Unify](https://user-images.githubusercontent.com/39222728/57004053-7fcfbd80-6b99-11e9-931b-e896abde8d2d.png)
+![Untitled Diagram](https://user-images.githubusercontent.com/39222728/57004067-a4c43080-6b99-11e9-92f6-175d00f18af9.png)
 
 To outline this process we will break it down into some steps below:
 
