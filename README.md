@@ -23,7 +23,7 @@ For our purpose we will be using the Decision Matrix algorithm which will be dis
 
 Shown below is a simplified representation of Unify's workflow.
 
-![Unify Network Diagram-1](https://user-images.githubusercontent.com/39222728/57003938-5c584300-6b98-11e9-8058-f6abbfb9973c.jpg)
+
 
 To outline this process we will break it down into some steps below:
 
