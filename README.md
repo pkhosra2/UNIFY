@@ -70,6 +70,7 @@ We can also perform this with a bit of Python code shown below:
 
 Once we have our data in our CSV file, we have our rating for individual songs as such below:
 
+![pastedImage0](https://user-images.githubusercontent.com/39222728/57004494-62045780-6b9d-11e9-808c-c7f989347524.png)
 
 
 ## Cleaning Our Data
