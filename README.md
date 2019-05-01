@@ -39,6 +39,8 @@ To outline this process we will break it down into some steps below:
 
 4. Onces our Python script establishes our set of songs it uses the Javascript program on the mobile application and Spotify's API to play the individal songs to the users network. 
 
+
+
 ## Extracting The Data
 In order to extract a user's Spotify data we need to use a form of API to handle that data. Luckily, Spotify comes with its own publicly available API online with full documentation. 
 
@@ -50,6 +52,14 @@ Below we can see some example documentation of some of the features this Spotipy
 
 
 Based on the Sptoifiy API documentation, we will choose to extract the following features from each Spotify user's librry of music:
+
+1. Acousticness      6. Loudness
+2. Danceability      7. Speechiness
+3. Energy            8. Tempo
+4. Instrumentalness  9. Valence
+5. Livemess          10. Target
+
+Features 1-9 are those found in the Spotify Python documentation, but 'Trarget' is a dynamic feature added a user continues to use Unify and will be discusssed in detail later on. 
 
 
 
