@@ -44,7 +44,13 @@ In order to extract a user's Spotify data we need to use a form of API to handle
 
 Although this documentation is provided, it is by no means extensive and even pretty limiited so performing complex analysis on individual msuic tastes will need some extra lines of code to produce. 
 
-Based on the Sptoifiy API documentation, we can extract the following features from each Spotify user's librry of music:
+Below we can see some example documentation of some of the features this Spotipy API documentation uses as features to ditsinguish a track
+
+![audiofeatures](https://user-images.githubusercontent.com/39222728/57004197-0f29a080-6b9b-11e9-9d81-f95674deaccd.JPG)
+
+
+Based on the Sptoifiy API documentation, we will choose to extract the following features from each Spotify user's librry of music:
+
 
 
 
