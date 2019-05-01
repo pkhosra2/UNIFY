@@ -36,6 +36,12 @@ To outline this process we will break it down into some steps below:
 4. Onces our Python script establishes our set of songs it uses the Javascript program on the mobile application and Spotify's API to play the individal songs to the users network. 
 
 ## Extracting The Data
+In order to extract a user's Spotify data we need to use a form of API to handle that data. Luckily, Spotify comes with its own publicly available API online with full documentation. 
+
+Although this documentation is provided, it is by no means extensive and even pretty limiited so performing complex analysis on individual msuic tastes will need some extra lines of code to produce. 
+
+Based on the Sptoifiy API documentation, we can extract the following features from each Spotify user's librry of music:
+
 
 
 ## Cleaning Our Data
