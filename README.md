@@ -14,6 +14,8 @@ To design Unify, numerous pltforms were incorporate and working in conjuunction 
 
 The main Python library used for handling collected user Spotify data was the user-created Spotipy library, which is a set of classes that allow for easy access of Spotify’s API calls. For the purpose of this project we will use Python to extract user's Spotify  data, execute data analysis, train a Machine Learning algorithm, and establish a server that can communicate with a mobile interface. 
 
+![SpotifyAPI](https://user-images.githubusercontent.com/39222728/57004157-97f40c80-6b9a-11e9-81a2-8d49f5ed068d.JPG)
+
 ## Outline 
 
 The approach to achieving our goal will be to first exraplote all the data necessary for our anaylsis. It is important to collect a large set of diverse data. The next step is “cleaning” the data for use. This involve organizing it to make it easy to work with and analyze. Eliminating redundant data can reduce the amount of calculations required during the next step and can greatly increase efficiency. If labels and features are a factor in the situation then these must be organized in a program such as excel. “Training” an algorithm is the next step in the process. There are many algorithms that have been developed and are specific to the needs of the process.
