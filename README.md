@@ -68,6 +68,9 @@ Using the GET function on HTTP below we can extract these specific features and 
 We can also perform this with a bit of Python code shown below:
 
 
+Once we have our data in our CSV file, we have our rating for individual songs as such below:
+
+
 
 ## Cleaning Our Data
 
