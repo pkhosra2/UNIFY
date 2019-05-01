@@ -61,9 +61,11 @@ Based on the Sptoifiy API documentation, we will choose to extract the following
 
 Features 1-9 are those found in the Spotify Python documentation, but 'Target' is a dynamic feature added a user continues to use Unify and will be discusssed in detail later on. 
 
-Using the GET function below we can extract these specific features and pool them into a CSV file which we can clean.
+Using the GET function on HTTP below we can extract these specific features and pool them into a CSV file which we can clean.
 
+![Capture](https://user-images.githubusercontent.com/39222728/57004420-e4d8e280-6b9c-11e9-8483-ad3d59d8b8f3.JPG)
 
+We can also perform this with a bit of Python code shown below:
 
 
 
