@@ -1,5 +1,6 @@
-# UNIFY - The Artificially Intelligent Disc Jockey  ![imageedit_1_8964998409](https://user images.githubusercontent.com/39222728/57004128-55cacb00-6b9a-11e9-9460-8b796f4ba6ec.gif)
+# UNIFY - The Artificially Intelligent Disc Jockey  
 
+![imageedit_1_8964998409](https://user-images.githubusercontent.com/39222728/57004128-55cacb00-6b9a-11e9-9460-8b796f4ba6ec.gif)
 
 Unify is the world's first intelligent disc jockey network and system to seamlessly integrate with a user's music streaming service. Unify is an intelligent system designed to find dynamic solutions from smaller crowds with changing demographics. It is able to design a collaborative and seamlessly effective music system. By gathering the most recently and most played songs from every individual’s Spotify library within range, Unify can determine the most optimum set of songs to be played continuously through an external speaker via Machine Learning-based algorithms and methods. This system consists of a centralized server potential listeners can connect to using their mobile devices with a collaborative application over a wireless network, which is being monitored using an external sniffer. Additionally, every user can choose to provide real-time feedback by suggesting a particular song or by voting the current song positively or negatively. Unify is revolutionary in its industry and can bring individuals closer together through the power of music.
 
