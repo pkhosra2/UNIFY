@@ -39,7 +39,7 @@ To outline this process we will break it down into some steps below:
 
 4. Onces our Python script establishes our set of songs it uses the Javascript program on the mobile application and Spotify's API to play the individal songs to the users network. 
 
-
+![UnifySocketProgrammingDiagram](https://user-images.githubusercontent.com/39222728/57004324-2cab3a00-6b9c-11e9-9a2b-4f491930de81.png)
 
 ## Extracting The Data
 In order to extract a user's Spotify data we need to use a form of API to handle that data. Luckily, Spotify comes with its own publicly available API online with full documentation. 
