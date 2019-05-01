@@ -19,14 +19,24 @@ The approach to achieving our goal will be to first exraplote all the data neces
 
 For our purpose we will be using the Decision Matrix algorithm which will be discussed in depth. Once a specific algorithm is chosen the “cleaned” data is fed to the algorithm with a specific target value in mind. This process is known as training a classifier. Once the classifier is trained and ready for use the final step commences. “Scoring” your algorithm entails taking sample data from your set and running it through your classifier. Since the target value of your data is known a test for accuracy may take place. A percentage of the data set is run through the classifier to test it’s prediction accuracy. Each algorithm has specific methods of boosting the accuracy of it’s predictions. This by far is arguably the most important step as it is the actual evaluation of your classifier. Machine Learning is being used in a variety of applications such as medical, robotics, self-driving vehicles and many more. Giving machines the ability to learn the same way humans do with exponentially greater computational speeds the opportunities are unimaginable. 
 
-## Unify's Network 
+## Unify's Methodology  
 
 Shown below is a simplified representation of Unify's workflow.
 
 ![Unify Network Diagram-1](https://user-images.githubusercontent.com/39222728/57003938-5c584300-6b98-11e9-8058-f6abbfb9973c.jpg)
 
+To outline this process we will break it down into some steps below:
+
+1. Spotify user's connect their individual Spotify accounts to the Unify Application 
+
+2. The Unify application then uses a TCP socket connection to wirlessly trasnmit data over a secure connection line to a remote HTTP server 
+
+3. This HTTP server then handles our extracted data and feeds it to a local python script waiting and running simultaneously 
+
+4. Onces our Python script establishes our set of songs it uses the Javascript program on the mobile application and Spotify's API to play the individal songs to the users network. 
 
 ## Extracting The Data
+
 
 ## Cleaning Our Data
 
