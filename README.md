@@ -127,7 +127,9 @@ Once we've created our data pipeline we can begin running tests with the data we
 
 We must reiterate that this alogrithm will work in conjunction with a user-driven rating system for each song that will ble play as a result of the test set, thus assigning each song picked by the Unify application a positive target value (1) or negative target value (0). 
 
-After “scoring” was complete a prediction accuracy of 76.2% was achieved. This means that the classifier was able to guess 3 out of 4 songs correctly for this specific user which is extremely impressive. However, no techniques to boost the accuracy were used so 76.2% is on the low end of the spectrum. 
+After “scoring” was complete a prediction accuracy of 76.2% was achieved. This means that the classifier was able to guess 3 out of 4 songs correctly for this specific user which is extremely impressive. However, no techniques to boost the accuracy were used so 76.2% is on the low end of the spectrum. Below we can see the final decision tree printed on Python, displaying each node and the paramters in which it chose which path to take.
+
+
 
 For a decision tree classifier we can use popular techniques like pruning to improve our prediction accuracy, which cuts off potential paths or branches down the tree. 
 
