@@ -98,10 +98,24 @@ G = sum(pk * (1 — pk))
 In simplest terms, the Gini score measure the certainity of the decision tree classifiers choice using a value between 0 and 1, those two representing complete certainty. 
  
 
-
-
-
 ## Running Tests
+
+The testing for this project ws split into two phases: a preliminary phase and an advanced phase 
+
+### Preliminary Phase
+
+The goal of the first phase was to establish simple communication between the Python server and Java client, using only TCP, a basic communication protocol that uses socket programming. To do this we first need to make sure that both the server-end and the client-end had well written-code that was properly functional on its own. Once this was confirmed, we were ready to establish a connection between the two nodes and transfer test data through the socket. Using request and response flags hardcoded into the Java client and Python Server, we were able to distinguish when the data was sent and received from both ends of the system. After several rounds of successful tests, an established confidence in moving onto quicker and more complex data transferwas possible
+
+### Advanced Phase
+
+The goal of the advanced phase was to establish full data transfer of individuals songs pushed from the python server algorithm to the Java client, upon a request to the server. To do this we needed to incorporate some changes to both the code written on Python and the Java client, mainly the inclusion of a local HTTP server running to push data. The simple server setup can be seen below:
+
+Below is the Python HTTP Java-Request Listener 
+
+
+
+
+
 
 ## Algortihm Descision Tree
 
