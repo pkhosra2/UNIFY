@@ -117,9 +117,7 @@ Below is the Python HTTP Java-Request Listener
 
 Next we need to establish another HTTP call, this time to handle the requested data being transfered from the Java client
 
-
-
-
+![HTTTPPublicServer](https://user-images.githubusercontent.com/39222728/57056089-24bbca80-6c6e-11e9-96cf-57b329e5269d.PNG)
 
 
 ## Algortihm Descision Tree
