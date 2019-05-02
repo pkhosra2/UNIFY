@@ -112,6 +112,11 @@ The goal of the advanced phase was to establish full data transfer of individual
 
 Below is the Python HTTP Java-Request Listener 
 
+![unnamed](https://user-images.githubusercontent.com/39222728/57056062-f3db9580-6c6d-11e9-8583-e730dab76832.png)
+
+
+Next we need to establish another HTTP call, this time to handle the requested data being transfered from the Java client
+
 
 
 
