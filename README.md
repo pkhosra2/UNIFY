@@ -124,7 +124,7 @@ Next we need to establish another HTTP call, this time to handle the requested d
 
 The Java client side code for the HTTP handler can be found below:
 
-
+![unnamed (5)](https://user-images.githubusercontent.com/39222728/57113679-a1ed4b00-6d13-11e9-807b-3d3592788ce0.png)
 
 This handler would store an authentication key, given by the user’s permission to the handler where it would be pushed to the server. This handler was developed using a third-party service provider called NGROK. This application allowed to create a public server available for 8 hours upon creation. This server could be accessed by a particular URL provided by the server window itself.
 
