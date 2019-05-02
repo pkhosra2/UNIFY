@@ -133,9 +133,13 @@ For a decision tree classifier we can use popular techniques like pruning to imp
 
 ## Results of Testing 
 
-After running through several iteration of tests and classifying, a few obervations were made. Below we can see a few representations of a small sample set of songs, displaying the specific preferences of the user.
+After running through several iteration of tests and classifying, a few obervations were made. Below we can see a few representations of a small sample set of songs, displaying the specific preferences of the user. The features examined in particular were the users preference in energy, valance, and danceability of the songs chosen
 
+![unnamed (1)](https://user-images.githubusercontent.com/39222728/57113332-0effe100-6d12-11e9-8ffa-cbd4627f1e71.png)
 
+![pastedImage0 (2)](https://user-images.githubusercontent.com/39222728/57113333-0effe100-6d12-11e9-8afb-2810442a2b8c.png)
+
+![pastedImage0 (1)](https://user-images.githubusercontent.com/39222728/57113334-0effe100-6d12-11e9-8bfb-2147a75360b0.png)
 
 ## Mobile Application Deployment
 
