@@ -145,3 +145,7 @@ After running through several iteration of tests and classifying, a few obervati
 
 ## Mobile Application Deployment
 
+Now that the backend of the Unify system is established and ready to process data, we must create the front-end of the system, namely the mobile application itself. Using Android studio and its javascript client, we can build our own application desgined to handle all user data and access to their individual Spotify aaccounts. 
+
+Below we can see a simple user setup and guide for giving Unify permission to your Spotify account, which they are then greeted with the hoepage where they can press a button to have Unify fetch their library songs for them. 
+
