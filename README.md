@@ -68,16 +68,21 @@ Using the GET function on HTTP below we can extract these specific features and 
 We can also perform this with a bit of Python code shown below:
 
 
+## Cleaning Our Data
+
+
 Once we have our data in our CSV file, we have our rating for individual songs as such below:
 
 ![pastedImage0](https://user-images.githubusercontent.com/39222728/57004494-62045780-6b9d-11e9-808c-c7f989347524.png)
 
 
-## Cleaning Our Data
-
 ## Establishing An Algorithm
 
-## Setting Algorithm Paramaters
+Now that we have a dataset aviaalble for manipulation, we need to choose our predicitve model to train and test. Based on the constraints and objectives of this project the best model to use would be to use the random forest classifier algorithm. This is because this classifier falls under a supervised learning method which requires the data to posses a label of feature from extraction and cleaning. 
+
+The random forest classifier 
+
+## Setting Algorithm Parameters
 
 ## Running Tests
 
