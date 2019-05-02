@@ -114,6 +114,7 @@ Below is the Python HTTP Java-Request Listener
 
 ![unnamed](https://user-images.githubusercontent.com/39222728/57056062-f3db9580-6c6d-11e9-8583-e730dab76832.png)
 
+The Java client side code for this can be found below:
 
 Next we need to establish another HTTP call, this time to handle the requested data being transfered from the Java client
 
