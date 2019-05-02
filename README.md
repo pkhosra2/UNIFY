@@ -116,9 +116,15 @@ Below is the Python HTTP Java-Request Listener
 
 The Java client side code for this can be found below:
 
+![unnamed (4)](https://user-images.githubusercontent.com/39222728/57113680-a1ed4b00-6d13-11e9-9c37-62791558a8ca.png)
+
 Next we need to establish another HTTP call, this time to handle the requested data being transfered from the Java client
 
 ![HTTTPPublicServer](https://user-images.githubusercontent.com/39222728/57056089-24bbca80-6c6e-11e9-96cf-57b329e5269d.PNG)
+
+The Java client side code for the HTTP handler can be found below:
+
+
 
 This handler would store an authentication key, given by the user’s permission to the handler where it would be pushed to the server. This handler was developed using a third-party service provider called NGROK. This application allowed to create a public server available for 8 hours upon creation. This server could be accessed by a particular URL provided by the server window itself.
 
