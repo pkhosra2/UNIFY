@@ -80,9 +80,26 @@ Once we have our data in our CSV file, we have our rating for individual songs a
 
 Now that we have a dataset aviaalble for manipulation, we need to choose our predicitve model to train and test. Based on the constraints and objectives of this project the best model to use would be to use the random forest classifier algorithm. This is because this classifier falls under a supervised learning method which requires the data to posses a label of feature from extraction and cleaning. 
 
-The random forest classifier 
+The random forest classifier is an simple and intuitively method of labeling data based on questions that you post at each stage or 'branch' of the classifier. This classifier is often times referred to as the "greedy algorithm" because of its objective to find the most optimum way of performing the task at hand.
+
+These questions will be the various features we need and extract above. However, this excludes the target features which will be dynamically created and populated by the user using a feedback loop and reinforcement implementation method via the mobile application. 
 
 ## Setting Algorithm Parameters
+
+One way of controlling our decision process of this algorithm is by setting our parameters and limits for splitting decisions and paths to take. More specifically, we adjust a scoring variable commonly known as a gini score. The gini score or gini impurity is a statistical measurement of how often a randomly chosen element would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset. We can calculate the gini score for our decision tree algorithm using the following approach:
+
+Where pk = # input arguments / # samples in node
+
+For pk = 0.5, 0.5 -----> G = 0.5
+For pk = 1, 0 ---------> G = 0
+
+G = sum(pk * (1 — pk))
+ 
+In simplest terms, the Gini score measure the certainity of the decision tree classifiers choice using a value between 0 and 1, those two representing complete certainty. 
+ 
+
+
+
 
 ## Running Tests
 
