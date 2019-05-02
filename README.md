@@ -129,7 +129,7 @@ We must reiterate that this alogrithm will work in conjunction with a user-drive
 
 After “scoring” was complete a prediction accuracy of 76.2% was achieved. This means that the classifier was able to guess 3 out of 4 songs correctly for this specific user which is extremely impressive. However, no techniques to boost the accuracy were used so 76.2% is on the low end of the spectrum. Below we can see the final decision tree printed on Python, displaying each node and the paramters in which it chose which path to take.
 
-
+![DT1](https://user-images.githubusercontent.com/39222728/57113413-728a0e80-6d12-11e9-9ba2-80bdee5cd371.png)
 
 For a decision tree classifier we can use popular techniques like pruning to improve our prediction accuracy, which cuts off potential paths or branches down the tree. 
 
