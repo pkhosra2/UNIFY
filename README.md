@@ -119,8 +119,23 @@ Next we need to establish another HTTP call, this time to handle the requested d
 
 ![HTTTPPublicServer](https://user-images.githubusercontent.com/39222728/57056089-24bbca80-6c6e-11e9-96cf-57b329e5269d.PNG)
 
+This handler would store an authentication key, given by the user’s permission to the handler where it would be pushed to the server. This handler was developed using a third-party service provider called NGROK. This application allowed to create a public server available for 8 hours upon creation. This server could be accessed by a particular URL provided by the server window itself.
 
-## Algortihm Descision Tree
+## Algorithm Descision Tree
+
+Once we've created our data pipeline we can begin running tests with the data we've extracted. For each run on our test user we will gather their first 2000 songs found on their saved tracks list from their Spotify accounts. We will then split that set of 2000 data points into  1700 to train our decision tree classifier, and 300 new songs to test our classifier. 
+
+We must reiterate that this alogrithm will work in conjunction with a user-driven rating system for each song that will ble play as a result of the test set, thus assigning each song picked by the Unify application a positive target value (1) or negative target value (0). 
+
+After “scoring” was complete a prediction accuracy of 76.2% was achieved. This means that the classifier was able to guess 3 out of 4 songs correctly for this specific user which is extremely impressive. However, no techniques to boost the accuracy were used so 76.2% is on the low end of the spectrum. 
+
+For a decision tree classifier we can use popular techniques like pruning to improve our prediction accuracy, which cuts off potential paths or branches down the tree. 
+
+## Results of Testing 
+
+After running through several iteration of tests and classifying, a few obervations were made. Below we can see a few representations of a small sample set of songs, displaying the specific preferences of the user.
+
+
 
 ## Mobile Application Deployment
 
