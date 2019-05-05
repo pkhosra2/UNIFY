@@ -53,11 +53,16 @@ Below we can see some example documentation of some of the features this Spotipy
 
 Based on the Sptoifiy API documentation, we will choose to extract the following features from each Spotify user's librry of music:
 
-1. Acousticness      6. Loudness
-2. Danceability      7. Speechiness
-3. Energy            8. Tempo
-4. Instrumentalness  9. Valence
-5. Livemess          10. Target
+1. Acousticness     
+2. Danceability      
+3. Energy           
+4. Instrumentalness  
+5. Livemess          
+6. Loudness
+7. Speechiness
+8. Tempo
+9. Valence
+10. Target
 
 Features 1-9 are those found in the Spotify Python documentation, but 'Target' is a dynamic feature added a user continues to use Unify and will be discusssed in detail later on. 
 
